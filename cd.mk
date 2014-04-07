@@ -2,12 +2,12 @@
 $(call inherit-product, device/motorola/targa/full_targa.mk)
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/cyandream/config/common_full_phone.mk)
 
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := cm_targa
+PRODUCT_NAME := cd_targa
 PRODUCT_BRAND := verizon
 PRODUCT_DEVICE := targa
 PRODUCT_DEVICE_PREFIX := cdma
